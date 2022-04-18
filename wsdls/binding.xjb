@@ -1,0 +1,10 @@
+<jxb:bindings version="1.0"
+    xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- generateElementProperty has to be false and collectionType needs to be indexed -->
+    <jxb:globalBindings collectionType="indexed" generateElementProperty="false" />
+    <!--
+    <enableWrapperStyle>false</enableWrapperStyle>
+    -->
+
+</jxb:bindings>
